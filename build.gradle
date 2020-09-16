@@ -1,0 +1,28 @@
+plugins {
+    id "idea"
+    id "java"
+    id "org.springframework.boot"   version "2.3.3.RELEASE"
+}
+
+group   = "com.github.gregwhitaker"
+version = "0.1.0"
+
+sourceCompatibility = 1.8
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    implementation platform("org.springframework.boot:spring-boot-dependencies:2.3.3.RELEASE")
+
+    implementation "org.slf4j:slf4j-simple"
+    implementation "org.springframework.boot:spring-boot-starter-webflux"
+}
+
+//Configure the OCI image builder if necessary here
+//https://docs.spring.io/spring-boot/docs/current/gradle-plugin/reference/html/#build-image
+//bootBuildImage {
+//
+//}
