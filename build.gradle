@@ -23,6 +23,6 @@ dependencies {
 
 //Configure the OCI image builder if necessary here
 //https://docs.spring.io/spring-boot/docs/current/gradle-plugin/reference/html/#build-image
-//bootBuildImage {
-//
-//}
+bootBuildImage {
+    verboseLogging = true
+}
