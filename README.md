@@ -1,4 +1,6 @@
 # springboot-buildpack-example
+![Build](https://github.com/gregwhitaker/springboot-buildpack-example/workflows/Build/badge.svg)
+
 Example of building a Spring Boot application as a Docker image using Cloud Native Buildpacks.
 
 ## Building the Example
